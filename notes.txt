@@ -21,3 +21,64 @@ localhost:3000/signup
 task:11-2-2022 
 
     Login.htlm -> login 
+---------------------------------------------
+
+postman
+
+
+REST client 
+
+http
+
+api -> test 
+
+
+response?
+
+a
+i
+w
+
+
+REST  api
+backend ==> Frontend ==> json
+
+login
+saveuser
+forgetpassword 
+
+product ->  add,remove,read-all,read-single
+	     modify,
+
+res : product
+res : cart 
+
+
+\saveproducts
+\products 		POST		insert 
+\products 		GET		read-all
+\products\:productId	GET		read-single 
+\products		PUT		modify
+\products\:productId	DELETE		remove
+
+
+
+
+
+
+
+
+
+{
+    "msg": "done danadone....",
+    "status": 200,
+    "data": {
+        "firstName": "ram",
+        "email": "ram@gmail.com",
+        "password": "ram123"
+    }
+}
+
+
+
+-----------------------------------------------
