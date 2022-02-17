@@ -84,3 +84,14 @@ res : cart
 -----------------------------------------------
 mongoose --> insert , list ,delete 
 
+save()
+find()
+deleteOne()
+
+edit profile
+change password ==> update 
+
+http method -> update --> 
+
+
+
