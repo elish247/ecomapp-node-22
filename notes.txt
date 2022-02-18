@@ -91,7 +91,39 @@ deleteOne()
 edit profile
 change password ==> update 
 
-http method -> update --> 
+http method -> update --> PUT  /roles 
 
+-------------------------------------------
+
+role --> CRUD 
+
+user [role fk ] --> CRUD 
+
+
+
+
+user ->
+        userId 
+        firstName
+        email
+        password 
+        roleId [fk:role] 
+
+1) model 
+2) controller 
+3) routing 
+4) testing 
+
+
+nodemon index.js --> to start server 
+
+
+windows + r ==> it will open run 
+
+now type services.msc 
+
+above command will open services --> 
+now search mongo service and check its running or not 
+if not running , right click and select running. 
 
 
