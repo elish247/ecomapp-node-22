@@ -48,6 +48,8 @@ app.post("/users",userController.addUser)
 app.get("/users",userController.getAllUsers)
 app.delete("/users/:userId",userController.deleteUser)
 
+app.post("/login",userController.login)
+
 
 
 //server 

@@ -127,3 +127,33 @@ now search mongo service and check its running or not
 if not running , right click and select running. 
 
 
+
+-------------------------------------------
+admin add status 
+statusid 
+status 
+yes only two things 
+
+
+vendor use that status when order accepted rejected or delievered
+
+
+yes - crud for all tables 
+ignore payment table 
+
+
+project is divided into multiple modules 
+inside modules we have multiple task 
+
+e.g 
+project ecommapp 
+module =>   admin , user , seller 
+
+
+
+
+
+-------------------------------------------
+
+
+
