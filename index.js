@@ -47,7 +47,7 @@ app.put("/roles",roleController.updateRole)
 app.post("/users",userController.addUser)
 app.get("/users",userController.getAllUsers)
 app.delete("/users/:userId",userController.deleteUser)
-
+app.put("/users",userController.updateUser)
 app.post("/login",userController.login)
 
 

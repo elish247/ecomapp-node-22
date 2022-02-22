@@ -63,7 +63,20 @@ module.exports.deleteUser = function(req,res){
 
 
 //update 
+module.exports.updateUser  = function(req,res){
+    let paramuserId = req.body.userId 
+    let paramemail = req.body.email 
+    let parampassword = req.body.password 
 
+    UserModel.updateOne({_id:paramuserId},{email:paramemail,password:parampassword},function(err,data){
+        if (err) {
+            res.json({ msg: "SMW", data: err, status: -1 })//-1  [ 302 404 500 ]
+        } else {
+            res.json({ msg: "user modified...", data: data, status: 200 })//http status code 
+        }
+    })
+
+}
 
 //login 
 module.exports.login = function(req,res){
