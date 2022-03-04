@@ -1,4 +1,5 @@
 const fs = require("fs")
+const UserModel = require("../model/user-model")
 
 function login(req,res){
     res.write("Login")
@@ -22,8 +23,10 @@ function saveUser(req,res){
     })
 }
 
+ 
+
+
 module.exports.login = login
 module.exports.signup = signup
-module.exports.saveuser = saveUser 
- 
+module.exports.saveuser = saveUser  
 
