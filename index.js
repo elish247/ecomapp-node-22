@@ -34,7 +34,7 @@ app.get("/",function(req,res){
           
 app.get("/login",sessionController.login) //dummy 
 app.get("/signup",sessionController.signup) //dummy
-
+app.post("/sendotpforpassword",sessionController.sendOtpForPassword)
 
 //role 
 app.post("/roles",roleController.addRole)

@@ -20,6 +20,9 @@ const UserSchema = new mongoose.Schema({
         type: String
     }, contactNum: {
         type: String
+    },otp:{
+        type:String
+
     }
 })
 
